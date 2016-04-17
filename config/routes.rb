@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  resources :sensor_actions
+  resources :sensor_actions
+  resources :sensor_types
+  resources :actuator_types
+  resources :actuators
+  resources :sensors
+  resources :nodes
+  resources :homes
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
